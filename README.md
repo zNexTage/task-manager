@@ -1,7 +1,7 @@
 # Task Manager
 
 ## Details
-CLI application to viewing, recording, updating, deleting and completing tasks.
+CLI application to viewing, recording, updating, deleting and completing tasks. This application was developed following the step-by-step challenge created by the guys at DevChallenge \o/ (https://github.com/stevescruz/Challenge-Task-List).
 
 ## How to run
 1. Run npm i in terminal;
