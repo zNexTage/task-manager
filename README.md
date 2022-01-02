@@ -5,12 +5,15 @@ CLI application to viewing, recording, updating, deleting and completing tasks. 
 
 ## How to run
 1. Run npm i in terminal;
-2. Run migrations:
-    1. Migrations to the development environment: \
-        Up: npm run migrate-up-dev \
-        Rollback: npm run migrate-rollback-dev 
-    2. Migrations to the production environment:\
-        Up: npm run migrate-up-prod\
-        Rollback: npm run migrate-rollback-prod 
-4. Run the command npm run dev to run in development environment or npm run prod to production environment.
+2. For development environment:
+    1. Run migrations using the following commands:
+        1. Up: npm run migrate-up-dev
+        2. Rollback: npm run migrate-rollback-dev 
+    2. Run npm run dev to start application.
+3. For production environment: 
+    1. Run migrations using the following commands: 
+        1. Up: npm run migrate-up-prod
+        2.  Rollback: npm run migrate-rollback-prod 
+    2. Run npm run prod to start application.
+
 
